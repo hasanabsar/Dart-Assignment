@@ -1,12 +1,12 @@
 void main(){
 
   // LEAP YEAR 
-  var birthYear = 2002;
+  var Year = 2002;
 
-  if (birthYear % 4 == 0) {
-    print("${birthYear} is a leap Year");
+  if (Year % 4 == 0) {
+    print("${Year} is a leap Year");
   }else{
-    print("${birthYear} is not a leap Year");
+    print("${Year} is not a leap Year");
   }
 
 
