@@ -13,17 +13,21 @@ void main(){
 
 //  =====TAST 02======
 
-  var salary = 15000;
+  double salary = 60000;
+  double allowance;
 
-  if(salary > 30000 && salary <= 50000){
-    print("5% allowance");
-  }else if(salary > 50000 && salary <= 80000){
-    print("10% allowance");
-  }else if(salary > 80000 && salary <= 150000){
-    print("15% allowance");
-  }else{
-    print("0% allowance");
+  if (salary > 30000 && salary < 50000) {
+    allowance = salary * 0.05;
+  } else if (salary > 50000 && salary < 80000) {
+    allowance = salary * 0.10;
+  } else if (salary > 80000 && salary < 150000) {
+    allowance = salary * 0.15;
+  } else {
+    allowance = 0;
   }
+
+  print("Salary: $salary");
+  print("Allowance: $allowance");
 
 //  =====TAST 03======
 
