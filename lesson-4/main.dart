@@ -11,7 +11,19 @@ void main(){
     print("");
  }
 
-//  =====TAST 02======
+//  =====TAST 02====== 
+
+ int number = 5;
+  int factorial = 1;
+
+  for (int i = 1; i <= number; i++) {
+    factorial = factorial * i;
+  }
+
+  print("Factorial of $number = $factorial");
+}
+
+//  =====TAST 03======
 
   double salary = 60000;
   double allowance;
@@ -29,7 +41,7 @@ void main(){
   print("Salary: $salary");
   print("Allowance: $allowance");
 
-//  =====TAST 03======
+//  =====TAST 04======
 
 var shopping = 30000;
 
@@ -44,7 +56,7 @@ if(shopping == 5000){
 }
 
 
-//  =====TAST 04======
+//  =====TAST 05======
 
 for (var num = 1; num <= 50; num++) {
     
